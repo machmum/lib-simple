@@ -19,7 +19,7 @@ var (
 	ErrInvalidAccountNumber = errors.New("Invalid account number")
 
 	// ErrInvalidAmountTransfer indicates invalid id
-	ErrInvalidAmountTransfer = errors.New("Invalid amount transfer")
+	ErrInvalidAmountTransfer = errors.New("Insufficient amount")
 
 	// InvalidAccountTransfer indicates invalid id
 	InvalidAccountTransfer = "Invalid %s_account_number: %s"
